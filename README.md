@@ -16,9 +16,10 @@ The main objective is that the code you submit is easy to understand, well-struc
   - This component should contain 2 buttons (Prev, Next) which can paginate the user list
     on the client-side. The list should only show 5 elements at a time.
 - Add a new input field on the UI to be able to change the role of a selected user.
-- _Optiaonal_ Fetching users via a backend API instead of mocked up data
+- _Optional_ Fetching users via a backend API instead of mocked up data
 - _Optional_ Using RxJS to refactor the project.
 - _Optional_ Create a UI Component to send a email to users, consider an asynchronised backend.
+- _Optional_ The test is using [angular material](https://material.angular.io/) to build UI, just use plain html/css/scss if you're not familiar to it.
 - _Optional_ Write unit tests for every new code you write.
 
 ## Usage
