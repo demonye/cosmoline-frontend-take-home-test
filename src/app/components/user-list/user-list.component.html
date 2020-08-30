@@ -1,0 +1,25 @@
+<div class="section">
+  <h1>Users</h1>
+  <mat-accordion *ngIf="users.length > 0; else Loading">
+    <mat-expansion-panel *ngFor="let user of users.slice(0, 10)">
+      <mat-expansion-panel-header>
+        <mat-panel-title>{{ user.name }}</mat-panel-title>
+      </mat-expansion-panel-header>
+      <p>
+        <mat-form-field apperance="outline">
+          <mat-label>E-mail:</mat-label>
+          <input matInput readonly [value]="user.email">
+        </mat-form-field>
+      </p>
+      <p>
+        <mat-form-field apperance="outline">
+          <mat-label>Role:</mat-label>
+          <input matInput readonly [value]="user.role">
+        </mat-form-field>
+      </p>
+    </mat-expansion-panel>
+  </mat-accordion>
+  <ng-template #Loading>
+    Loading...
+  </ng-template>
+</div>
