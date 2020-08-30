@@ -1,27 +1,30 @@
-# FacteonFrontendTakeHomeTest
+# Facteon frontend take home
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.8.
+The goal of this exercise is to test your front-end development skills on this pre-defined project.
 
-## Development server
+Don't stress if you can't get every part done -- spend a maximum of 4 hours on this assignment.
+We'll discuss your solution in person so you'll get a chance to tell us what else you wanted to add and how you planned to implement those.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+The main objective is that the code you submit is easy to understand, well-structured and works.
 
-## Code scaffolding
+## Tasks
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Create a UI Component that filters the users by role
+- Create a UI Component that hides the verified users
+- Create a UI Component that orders the user list by name
+- Create a component that does basic pagination
+  - This component should contain 2 buttons (Prev, Next) which can paginate the user list
+    on the client-side. The list should only show 5 elements at a time.
+- Add a new input field on the UI to be able to change the role of a selected user.
+- _Optiaonal_ Fetching users via a backend API instead of mocked up data
+- _Optional_ Using RxJS to refactor the project.
+- _Optional_ Create a UI Component to send a email to users, consider an asynchronised backend.
+- _Optional_ Write unit tests for every new code you write.
 
-## Build
+## Usage
+ 1. Download / clone this repository.
+ 2. Install dependencies.
+ 3. Run the start script.
+ 4. Happy Coding!
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## Submit your code
