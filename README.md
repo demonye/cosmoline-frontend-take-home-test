@@ -17,7 +17,8 @@ The test is using [angular material](https://material.angular.io/) to build UI, 
 - Create a component that does basic pagination
   - This component should contain 2 buttons (Prev, Next) which can paginate the user list
     on the client-side. The list should only show 5 elements at a time.
-    
+- Optional Using RxJS to refactor the project.
+
 ## Usage
  1. Download / clone this repository.
  2. Install dependencies.
