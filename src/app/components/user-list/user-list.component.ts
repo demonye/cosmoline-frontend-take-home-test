@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { users } from '../../data/users'
-import { Kinja$User, getUsers } from '../../api/profile';
+import { users } from '../../data/users';
+import { Facteon$User, getUsers } from '../../api/profile';
 
 @Component({
   selector: 'app-user-list',
@@ -9,12 +9,12 @@ import { Kinja$User, getUsers } from '../../api/profile';
 })
 export class UserListComponent implements OnInit {
 
-  users: Kinja$User[] = [];
+  users: Facteon$User[] = [];
 
   constructor() { }
 
   ngOnInit(): void {
-    getUsers().then(users => {
+    getUsers().then(() => {
       this.users = users;
     });
   }

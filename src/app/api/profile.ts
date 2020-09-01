@@ -1,6 +1,6 @@
 // @flow
 
-import { users } from '../data/users'
+import { users } from '../data/users';
 
 export enum MembershipRole {
     Freelancer = 'freelancer',
@@ -8,13 +8,13 @@ export enum MembershipRole {
     Admin = 'admin',
 }
 
-export interface Kinja$User {
-    name: string,
-    role: string,
-    email: string,
-    verified: boolean
+export interface Facteon$User {
+    name: string;
+    role: string;
+    email: string;
+    verified: boolean;
 }
 
-export function getUsers(): Promise<Array<Kinja$User>> {
+export function getUsers(): Promise<Array<Facteon$User>> {
     return Promise.resolve(users);
 }
